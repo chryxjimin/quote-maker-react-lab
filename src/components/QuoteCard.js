@@ -35,4 +35,8 @@ const QuoteCard = (props) =>
     </div>
   </div>;
 
+  //Make sure to connect the callback 
+  // action props to the the Upvote, Downvote 
+  // and Delete buttons.
+
 export default QuoteCard;

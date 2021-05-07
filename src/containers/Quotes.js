@@ -18,7 +18,14 @@ class Quotes extends Component {
               {/*
                 TODO:
 
-                Render Quotes With QuoteCard component and pass down callback props for removing, upvoting and downvoting quotes
+                Render Quotes With QuoteCard component 
+                and pass down callback props for removing, 
+                upvoting and downvoting quotes
+                needs to be connected to the Redux state 
+                so that it can render the quotes
+                Also make sure to attach the remove, upvote, and 
+                downvote actions from the Quotes Actions file 
+                to pass down as callback props to the QuoteCard component.
                */}
             </div>
           </div>
